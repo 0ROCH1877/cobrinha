@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(to bottom, #00FFFF, #0000FF);
+  }
+  body {
+    background: linear-gradient(to bottom, #FFDAB9, #ADD8E6);
+  }
+  
+  canvas {
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+  }
+  
+  #pontuacao {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+  }
+  .fundo {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQjnCYSnltbDZXoZ4RjxOF81yxNla9MVteqcOZBK78ZlTIBx_YSl-cYGu0d9HVq45Y4eg&usqp=CAU);
+  }
+  body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQjnCYSnltbDZXoZ4RjxOF81yxNla9MVteqcOZBK78ZlTIBx_YSl-cYGu0d9HVq45Y4eg&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  

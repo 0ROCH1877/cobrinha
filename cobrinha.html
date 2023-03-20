@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>snake</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/x-icon">
+    <link rel="icon" href="logo.png" type="image/png">
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div id="pontuacao">:pontuacão <span id="pontos"></span></div>
+    <script src="script.js"></script>
+    <div class="fundo">
+        <!-- conteúdo do elemento -->
+      </div>
+    <div style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQjnCYSnltbDZXoZ4RjxOF81yxNla9MVteqcOZBK78ZlTIBx_YSl-cYGu0d9HVq45Y4eg&usqp=CAU);">
+        <!-- conteúdo do elemento -->
+      </div>
+      <audio id="musica" src="8bit.sound/X2Download.app - Naruto - Sadness and Sorrow 8 Bit (128 kbps).mp3" loop></audio>
+      <button onclick="playPause()">Play/Pause</button>
+     
+
+      <script>
+      function playPause() {
+        var musica = document.getElementById("musica");
+        if (musica.paused) {
+          musica.play();
+        } else {
+          musica.pause();
+        }
+      }
+      </script>
+      
+      
+      
+      
+      
+  </body>
+</html>
+
